@@ -1,1 +1,0 @@
-#  convert usd to inr

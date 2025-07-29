@@ -1,1 +1,0 @@
-# to print the elements of list in a single line
