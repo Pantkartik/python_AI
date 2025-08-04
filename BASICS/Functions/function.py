@@ -1,26 +1,28 @@
-# to pass the value of list in the argument 
+# declaring the function 
+def hello(name):
+  print("Hello,",name)
+
+name=input("Enter your name : ")
+hello(name)
 
 
-def food(food):
-  for x in food : 
-    print(x)
+# to calculate the sum of two numbers usinf functions
 
-fruits=['apple','mango','guava']
-food(fruits ) 
+def sum_num(a,b):
+  return a+b
 
-
-
-
-#  to return the function 
+a=int(input("NUMBER : "))
+b=int(input("NUMBER : "))
+print(sum_num(a,b))
 
 
+#  to find the valid age for DL
 
-
-
-
-def my_function(x):
-  return 5*x
-print(my_function(3))
-print(my_function(6))
-print(my_function(7))
-
+def valid_age(age):
+  if age>=18 and age<=60  :
+    print("Valid")
+ 
+  else :
+    print("Not Valid")
+age=int(input("Enter the age : "))
+valid_age(age)
