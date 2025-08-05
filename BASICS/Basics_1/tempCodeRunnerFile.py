@@ -1,9 +1,13 @@
+n=int(input("Enter the number : "))
 
-#  float 
-
-x=float(input("Enter the x : "))
-y=float(input("Enter the y : "))
-z=round(x+y)
-print(f"{z:,}")   # for comma we use f is for formatting ==> {z:,}
-
-#  output is 1,000 if input is 1000
+match n:
+  case 1:
+    print("Hello ")
+  case 2:
+    print("hola")
+  case 3: 
+    print("namaste ")
+  case 4:
+    print("ram ram bhai")
+  case default:
+    print("error")
