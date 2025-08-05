@@ -1,8 +1,8 @@
-def valid_age(age):
-  if age>=18 and age<=60  :
-    print("Valid")
- 
-  else :
-    print("Not Valid")
-age=int(input("Enter the age : "))
-valid_age(age)
+def main():
+  x=int(input("Enter the number : "))
+  print("Square of x is ",square(x))
+
+def square(n):
+  return n*n
+
+main()

@@ -26,3 +26,29 @@ def valid_age(age):
     print("Not Valid")
 age=int(input("Enter the age : "))
 valid_age(age)
+
+
+#  using main function to define functions anywhere in the program
+
+
+
+def main():
+  name=input("Enter the name : ")
+  hello(name)
+
+def hello(to):
+  print("Hello, ",to)
+
+main()
+
+
+# return function 
+
+def main():
+  x=int(input("Enter the number : "))
+  print("Square of x is ",square(x))
+
+def square(n):
+  return n*n
+
+main()
