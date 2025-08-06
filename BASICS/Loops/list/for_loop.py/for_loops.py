@@ -10,3 +10,15 @@ for i in list:
   
   for i in range(10):
     print(" Namaste Ajgar")
+    
+    
+    #  using for loop for asking the number 
+    
+  while True:
+    n=int(input("Enter the number : "))
+    if n>0 : 
+      break
+  for _ in range(n):
+    print(Meow)
+    
+    
