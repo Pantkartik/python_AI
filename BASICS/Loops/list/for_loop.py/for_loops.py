@@ -8,5 +8,5 @@ for i in list:
 
   print(f"array  : ",i)
   
-for i in range(10):
-  print(" Namaste Ajgar")
+  for i in range(10):
+    print(" Namaste Ajgar")
