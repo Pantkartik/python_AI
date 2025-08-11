@@ -1,4 +1,8 @@
 
-    for x in range(3):
-      if(x<0):
-       x=int(input("Enter the number : "))
+students=["hello","hola","namaste"," ram ram"]
+# now let us print this list using as for in range lop 
+for i in range(len(students)):
+  print(students[i])
+  
+  #  this will print the elements of the array
+  
