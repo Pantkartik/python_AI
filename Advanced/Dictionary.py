@@ -119,3 +119,15 @@ dict_copy=dict_original.copy()
 dict_copy.popitem()
 print(dict_copy)
 print(dict_original)
+
+
+
+
+''' Merge/Update two dictionary '''
+
+
+dict1=dict(Name="Kartik",Age=19,Height="6 Feet")
+dict2=dict(Name="Naman",Age=21,Height="6 Feet")
+
+dict1.update(dict2)
+print(dict1)
