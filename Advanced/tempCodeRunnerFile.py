@@ -1,3 +1,7 @@
-import timeit
-print(timeit.timeit(stmt="[1,2,3,4,6,7,8,8,9]", number=1000000))
-print(timeit.timeit(stmt="(1,2,3,4,6,7,8,8,9)", number=1000000))
+dict_original=dict(Name="Kartik",Age=19,Height="6 feet")
+
+dict_copy=dict_original.copy()
+
+dict_copy.popitem()
+print(dict_copy)
+print(dict_original)
