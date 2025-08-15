@@ -14,3 +14,27 @@ print(u)
 
 i = odds.intersection(prime)
 print(i)
+
+
+
+'''  Difference '''
+
+setA={1,2,3,6,8,5,6,90}
+setB={2,5,21,3,8,10}
+
+diff=setA.difference(setB)
+print(diff)
+
+
+''' Symetric difference '''
+
+setA={1,2,3,6,8,5,6,90}
+setB={2,5,21,3,8,10}
+
+# diff=setA.symmetric_difference(setB)
+# print(diff)
+
+
+setA.update(setB)
+print(setA)
+

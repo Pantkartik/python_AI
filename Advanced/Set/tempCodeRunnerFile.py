@@ -1,15 +1,12 @@
+''' Symetric difference '''
 
-odds={1,3,5,7,9}
-evens={0,2,4,6,8}
-prime={2,3,5,7}
+setA={1,2,3,6,8,5,6,90}
+setB={2,5,21,3,8,10}
 
-
-u= odds.union(evens,prime)
-print(u)
-
+# diff=setA.symmetric_difference(setB)
+# print(diff)
 
 
-'''  Intersection '''
+setA.update(setB)
+print(setA)
 
-i = odds.intersection(evens)
-print(i)
