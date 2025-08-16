@@ -108,3 +108,33 @@ print(my_list)
 my_list_converting=['hello', 'this', 'is', 'a', 'conversion']
 my_converted_string= ' '.join(my_list_converting)
 print(my_converted_string)
+
+
+# note ' '.join() method is considered to be the best 
+
+
+
+'''  Format strings  '''
+
+# 1. % method 
+name="kartik"
+age=20
+message="hello %s" % name    #  if integer is there %d,%f with the float
+message1="your age is %d"%age
+print(message)
+print(message1)
+
+# 2. using .format()
+
+
+
+name="kartik"
+message="hello malik Mr.{}".format(name)
+print(message)
+
+
+# 3. Using f-strings
+
+name="kartik"
+message=f"hello malik Mr.{name}"
+print(message)
