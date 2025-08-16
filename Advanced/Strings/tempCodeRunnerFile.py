@@ -1,2 +1,3 @@
-string5="here is my method"
-print(string5.find("method"))
+my_list_converting=['hello', 'this', 'is', 'a', 'conversion']
+my_converted_string= ' '.join(my_list_converting)
+print(my_converted_string)

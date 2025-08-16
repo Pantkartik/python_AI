@@ -86,3 +86,25 @@ for i in string4:
 # 7. To find the subset string index
 string5="here is my method"
 print(string5.find("method")) 
+
+
+# 8. Count the number of character of string 
+print(string5.count("h"))
+
+
+# 9. Rplacing the string
+print(string5.replace("here","there"))
+
+
+''' converting string to list '''
+
+my_string="hello this is a conversion "
+my_list=my_string.split()
+print(my_list)
+
+
+''' converting list to string '''
+
+my_list_converting=['hello', 'this', 'is', 'a', 'conversion']
+my_converted_string= ' '.join(my_list_converting)
+print(my_converted_string)
