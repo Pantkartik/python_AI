@@ -1,0 +1,2 @@
+# itertools : product,permutations,combinations,accumlate,grouphy,infinite iterators
+
