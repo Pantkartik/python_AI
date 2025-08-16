@@ -1,0 +1,1 @@
+'''   Collection : counter,namedtuple,orderedDict,defaultdict,deque'''
