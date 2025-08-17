@@ -1,7 +1,6 @@
-'''
-Errors are the return terminal commands which generate generally when we typo error syntax error import module error and many more 
+# Errors are the return terminal commands which generate generally when we typo error syntax error import module error and many more 
 
-'''
+
 
 
 
