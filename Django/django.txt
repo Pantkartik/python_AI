@@ -1,0 +1,4 @@
+'''
+learning the django from scratch and making the backend for a full stack app + Anospace 
+
+'''
