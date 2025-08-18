@@ -1,2 +1,9 @@
-y=-10
-assert(y>=0)," y should be less than 0 "
+
+try:
+  # a=5/0   # this will give zero division error
+  b=6+'hello'  # this will give type error 
+except Exception as e:
+  print(e)     # for printing the error 
+except Exception as n:
+  print(n)
+    
