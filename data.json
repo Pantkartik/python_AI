@@ -1,0 +1,1 @@
+"{\n    \"age\": 39,\n    \"email\": \"user529@example.com\",\n    \"id\": 567,\n    \"is_active\": false,\n    \"name\": \"User26\",\n    \"preferences\": {\n        \"newsletter\": false,\n        \"notifications\": \"none\"\n    }\n}"
