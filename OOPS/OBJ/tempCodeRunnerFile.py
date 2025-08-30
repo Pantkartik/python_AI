@@ -1,16 +1,9 @@
-class Player:
-  def __init__(self,name,health,attack):
-    self.name=name
-    self.health=health
-    self.attack=attack
-    
-    def attack_enemy(self):
-      print(f"{self.name} is attacking {self.attack}")
-      
-      
-  
-  
-warrior = Player("kartik",100,20)
+class Car():
+    def __init__(self,brand,color):
+        self.brand=brand
+        self.color=color
 
-
-warrior.attack_enemy()
+car1=Car('mercedes','black')
+car2=Car('lambo','green')
+print(car1.brand,car1.color)
+print(car2.brand,car2.color)

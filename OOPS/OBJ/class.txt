@@ -1,0 +1,10 @@
+'''
+A class is a blueprint for creating a object
+
+'''
+
+
+map - class
+house - object
+
+object are the actual instance of class
