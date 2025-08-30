@@ -1,24 +1,18 @@
-class action():
-    def fight(self):
-        print(f"We are good to go ! ")
-
-class boeing(action):
-    def flight(self):
-        print("Runway Free !")
-        print(f"The Boeing 777 is set to fly lets go ! ")
+class Bankaccount:
+    def __init__(self,Name,Account_Number,IFSC_Code,Balance):
+        self.Name=Name
+        self.Account_Number=Account_Number
+        self.IFSC_Code=IFSC_Code
+        self.__Balance=Balance
         
-        print(" GEAR UP !")
-
-class airbus(action):
-    def flight(self):
-        print("Runway Free !")
-        print(f"The Airbus A380 is set to fly lets go ! ")
+    def deposit(self,amount):
+        self.__Balance +=amount
+        print(f"The amount has been deposited in account{self.Account_Number} holder name{self.Name}, new balance is {self.__balance}")
         
-        print(" GEAR UP !")
-        
+    def get_balance(self):
+        return self.__balance
+    
+account=Bankaccount("kartik pant","123456","ICFCE34262",500)
 
-Runway1=boeing()
-Runway2=airbus()
-
-Runway1.flight()
-Runway2.flight()
+account.deposit(5000)
+print(account.get_balance())
