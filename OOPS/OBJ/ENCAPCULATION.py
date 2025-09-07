@@ -13,7 +13,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.__Balance += amount
-        print(f"The amount has been deposited in account \n{self.Account_Number} \nholder name {self.Name}\nnew balance is {self.__Balance}")
+        print(f"The amount has been deposited in account : {self.Account_Number} \nHolder name : {self.Name}\n {"Old Balanace": 500} \nNew balance : {self.__Balance}")
 
     def get_balance(self):
         return self.__Balance
