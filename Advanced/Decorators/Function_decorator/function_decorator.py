@@ -3,17 +3,4 @@
 
 # for example
 
-def dec(func):
-    def new():
-        print("hello")
-        func()
-        print("bye")
-        
-    return new
-
-
-@dec
-def main():
-    print("kartik")
-
-main()
+def func(i)
